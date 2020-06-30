@@ -1,0 +1,2 @@
+E:\Text_Editor\Debug\Text_Editor.exe
+E:\Text_Editor\Debug\Text_Editor.pdb

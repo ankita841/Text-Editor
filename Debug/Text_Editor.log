@@ -1,0 +1,12 @@
+﻿  main.c
+E:\Text_Editor\main.c(70,32): warning C4013: 'TXT_TextWidth' undefined; assuming extern returning int
+E:\Text_Editor\main.c(71,33): warning C4013: 'TXT_TextHeight' undefined; assuming extern returning int
+E:\Text_Editor\main.c(85,11): warning C4013: 'memset' undefined; assuming extern returning int
+E:\Text_Editor\main.c(159,49): warning C4013: 'strlen' undefined; assuming extern returning int
+E:\Text_Editor\main.c(165,31): warning C4013: 'memcpy' undefined; assuming extern returning int
+E:\Text_Editor\main.c(198,35): warning C4018: '<=': signed/unsigned mismatch
+E:\Text_Editor\main.c(201,33): warning C4013: 'TXT_DrawText' undefined; assuming extern returning int
+main.obj : error LNK2019: unresolved external symbol _TXT_TextWidth referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _TXT_TextHeight referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _TXT_DrawText referenced in function _SDL_main
+E:\Text_Editor\Debug\Text_Editor.exe : fatal error LNK1120: 3 unresolved externals
