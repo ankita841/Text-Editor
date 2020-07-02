@@ -30,7 +30,7 @@ typedef struct
     int h;
 }rect_t;
 
-void FillRect(rect_t rect, u32 pixel_color, u32 *screen_pixels)
+static void FillRect(rect_t rect, u32 pixel_color, u32 *screen_pixels)
 {
     //assert(screen_pixels);
     for (int row = 0; row < rect.h; ++row)
@@ -201,6 +201,19 @@ int main(int argc, char** argv)
                     y = i * (glyph_h + 5);
                     TXT_DrawText(lines[i], 0, y, screen_pixels);
                 }
+            }
+
+            if (pressed_up) {
+                caret.y -= 8;
+            }
+            if (pressed_down) {
+                caret.y += 8;
+            }
+            if (pressed_left) {
+                caret.x -= 8;
+            }
+            if (pressed_right) {
+                caret.x += 8;
             }
 
             
