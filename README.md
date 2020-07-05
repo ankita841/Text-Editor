@@ -18,8 +18,11 @@ The library is internally written in C and possibly, depending on the target pla
 
   If the length of the word typed is greater than the screen width, that is, if there are no spaces then the wrapping of word will not take place.
 ## Preview
+
+- Showing word wrapping and Collapsing two lines into one (when it is possible)
 ![vid](demo1.gif)
 
+- Showing no word wrapping when there are no spaces
 ![vid](demo2.gif)
 ## Tech Stack 
 - C Language
